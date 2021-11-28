@@ -25,13 +25,12 @@ const Exchanges = () => {
       </Row>
       <Row>
         {exchangesList.map((exchange) => (
-          <Col span={24}>
+          <Col span={24} key={exchange.id}>
             <Collapse>
               <Panel
-                key={exchange.id}
                 showArrow={false}
                 header={
-                  <Row className="exchange-panel" key={exchange.id}>
+                  <Row className="exchange-panel">
                     <Col span={6}>
                       <Text>
                         <strong>{exchange.rank}.</strong>
