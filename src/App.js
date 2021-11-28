@@ -13,7 +13,6 @@ import {
 function App() {
   return (
     <div className="app">
-      Hello world
       <div className="navbar">
         <Navbar />
       </div>
@@ -35,7 +34,8 @@ function App() {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            CryptoApp <br />
+            Copyright © 2021
+            <Link to="/"> CryptoApp</Link> <br />
             All rights reserved.
           </Typography.Title>
           <Space>

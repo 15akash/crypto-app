@@ -344,11 +344,11 @@ a:hover {
   align-items: center;
   margin-top: 40px;
 }
-margin: 0px 10px !important;
 .show-more {
   margin-top: 0px !important;
 }
 .exchange-image {
+  margin: 0px 10px !important;
 }
 .search-crypto {
   margin: 20px auto 30px auto;
@@ -374,4 +374,8 @@ margin: 0px 10px !important;
   flex-direction: column;
   padding: 20px;
   align-items: center;
+}
+
+.exchange-panel {
+  width: 100%;
 }
